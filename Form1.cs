@@ -14,7 +14,7 @@ namespace WinGitHub
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Ìÿó!");
+            MessageBox.Show("Ìÿó2!");
         }
     }
 }
