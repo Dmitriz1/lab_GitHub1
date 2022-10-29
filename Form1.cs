@@ -6,5 +6,10 @@ namespace WinGitHub
         {
             InitializeComponent();
         }
+
+        private void ButtonGaf_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("√‡‚!");
+        }
     }
 }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.ButtonGaf = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -40,11 +41,22 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Животные";
             // 
+            // ButtonGaf
+            // 
+            this.ButtonGaf.Location = new System.Drawing.Point(475, 197);
+            this.ButtonGaf.Name = "ButtonGaf";
+            this.ButtonGaf.Size = new System.Drawing.Size(75, 23);
+            this.ButtonGaf.TabIndex = 1;
+            this.ButtonGaf.Text = "Собака";
+            this.ButtonGaf.UseVisualStyleBackColor = true;
+            this.ButtonGaf.Click += new System.EventHandler(this.ButtonGaf_Click);
+            // 
             // MekhedaDima
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ButtonGaf);
             this.Controls.Add(this.label1);
             this.Name = "MekhedaDima";
             this.Text = "Form1";
@@ -56,5 +68,6 @@
         #endregion
 
         private Label label1;
+        private Button ButtonGaf;
     }
 }
